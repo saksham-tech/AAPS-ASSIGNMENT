@@ -14,4 +14,6 @@ def rangeSum(prefix, L, R):
         return prefix[R]
     else:
         return prefix[R] - prefix[L-1]
+#TIME COMPLEXITY O(N)
+#SPACE COMPLEXITY 0(N)
 
